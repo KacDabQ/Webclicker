@@ -1,0 +1,41 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: linear-gradient(to right, #ff24fb, #ff2b2b);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.title {
+  background-color: white;
+  border-radius: 20px;
+
+  padding: 5%;
+  margin-bottom: 100px;
+}
+
+.click {
+  border-radius: 20px;
+  border-style: none;
+  width: 30%;
+  height: 50px;
+  transition: 300ms;
+}
+
+button:hover {
+  cursor: grab;
+  width: 32%;
+  height: 55px;
+}
+
+button:active {
+  cursor: grabbing;
+  width: 29%;
+  height: 48px;
+  opacity: 80%;
+}
+
+.clicksC {
+  margin: 10px;
+  color: white;
+}
